@@ -43,7 +43,7 @@ end
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
 	if gameProcessed then return end
 
-	if input.KeyCode == Enum.KeyCode.Z then
+	if input.KeyCode == Enum.KeyCode.R then
 		teleport()
 	end
 end)
