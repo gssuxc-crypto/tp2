@@ -48,7 +48,7 @@ UserInputService.InputBegan:Connect(function(input, gameProcessed)
 
 		local tween = TweenService:Create(
 			hrp,
-			TweenInfo.new(1.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+			TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 			{CFrame = targetCFrame}
 		)
 
